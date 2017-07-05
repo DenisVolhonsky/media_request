@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.wrap {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 600px;
+}
+header {
+text-align: center;
+height: auto;
+background: #C4FF3C;
+}
+.ott {
+	display: flex;
+	flex-wrap: wrap;
+
+}		
+.one,
+.two,
+.three {
+	width: 33.3333%;
+	height: auto;
+	padding: 2%;
+	box-sizing: border-box;
+}
+.one{
+	background: #504EA0;
+}
+.two {
+	background: #50A026;
+}
+.three {
+	background: #4B99FF;
+}
+.four {
+	background: #FFA300;
+	width: 100%;
+	padding: 2%;
+}
+@media screen and (max-width: 500px) {
+	.one,
+	.two {
+	 	width: 50%; 
+	}
+	.three {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 300px) {
+	.one,
+	.two {
+	 	width: 100%;
+	}
+}	
